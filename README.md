@@ -12,6 +12,9 @@ custom installation of debian + i3 as light desktop environment
 > /ATTENTION\ Ce script va forcer un reboot 
 
 ```bash 
+apt update
+```
+```bash 
 wget https://github.com/gwMuraro/install_debi3/releases/download/v1.0/apt_install.sh 
 ``` 
 ```bash 
