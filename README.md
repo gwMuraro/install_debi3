@@ -12,8 +12,14 @@ custom installation of debian + i3 as light desktop environment
 > /ATTENTION\ Ce script va forcer un reboot 
 
 ```bash 
-wget https://github.com/gwMuraro/install_debi3/releases/download/v1.0/apt_install.sh && chomd +x ./apt_install.sh && ./apt_install.sh
+wget https://github.com/gwMuraro/install_debi3/releases/download/v1.0/apt_install.sh 
+``` 
+```bash 
+chomd +x ./apt_install.sh
 ```
+```bash 
+./apt_install.sh
+``` 
 
 Une fois la machine reboot, vous pouvez continuer en vous identifiant. 
 
