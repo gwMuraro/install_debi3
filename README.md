@@ -26,7 +26,14 @@ Une fois authentifié sur votre machine validez les prompt d'i3 par entrer (on v
 
 * Récupérez le script suivant et exécutez le. 
 ```bash 
-wget -O - https://github.com/gwMuraro/install_debi3/releases/download/v1.0/configuration_i3.sh | bash
+wget  https://github.com/gwMuraro/install_debi3/releases/download/v1.0/configuration_i3.sh
 ```
+```bash 
+chmod +x configuration_i3.sh
+```
+```bash 
+./configuration_i3.sh
+```
+
 
 

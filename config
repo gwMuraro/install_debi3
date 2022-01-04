@@ -185,8 +185,16 @@ bar {
 
 set $alt Mod1 
 
+# brightness with light
+bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessDown exec light -U 5
+
 # alt tab
 exec --no-startup-id alttab -fg "#d58681" -bg "#4a4a4a" -frame "#eb564d" -t 128x150 -i 127x64 -d 1
+
+# Separate workspace 
+assign[class="Firefox"] 2
+assign[class="Code"] 3
 
 # Launch all what you need 
 exec --no-startup-id i3-sensible-terminal
