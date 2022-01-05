@@ -11,6 +11,8 @@ custom installation of debian + i3 as light desktop environment
 
 > /ATTENTION\ Ce script va forcer un reboot 
 
+Nécessite d'être en administrateur :
+
 ```bash 
 apt update
 ```
